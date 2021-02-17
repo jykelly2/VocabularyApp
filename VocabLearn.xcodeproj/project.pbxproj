@@ -7,25 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA16C9302484B3BC0056A23C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA16C92F2484B3BC0056A23C /* Extensions.swift */; };
+		BA2389AD24A31D37004344B3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389AC24A31D37004344B3 /* Category.swift */; };
+		BA2389B124A41C26004344B3 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389B024A41C26004344B3 /* ListCell.swift */; };
+		BA2389B324A81588004344B3 /* MainCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389B224A81588004344B3 /* MainCategoryCell.swift */; };
+		BA2389C024AB0790004344B3 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389BF24AB0790004344B3 /* PremiumView.swift */; };
+		BA2389CE24AEC871004344B3 /* VocabLearn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA28F68424776C5900E1ED68 /* VocabLearn.xcdatamodeld */; };
+		BA2389DC24AEC96C004344B3 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389DB24AEC96C004344B3 /* Popup.swift */; };
+		BA2389E824AED235004344B3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389E724AED235004344B3 /* ListView.swift */; };
+		BA2389EA24AED24A004344B3 /* WordsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389E924AED24A004344B3 /* WordsListView.swift */; };
+		BA2389EC24AED2B0004344B3 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389EB24AED2B0004344B3 /* List.swift */; };
+		BA2389EE24AED2FE004344B3 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389ED24AED2FE004344B3 /* ListController.swift */; };
+		BA2389F024AED46C004344B3 /* AddedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389EF24AED46C004344B3 /* AddedListCell.swift */; };
+		BA2389F224AEE704004344B3 /* ListPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389F124AEE704004344B3 /* ListPopup.swift */; };
+		BA2389F424AEF798004344B3 /* PickListPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389F324AEF798004344B3 /* PickListPopup.swift */; };
+		BA2389F624B03D10004344B3 /* PickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389F524B03D10004344B3 /* PickListView.swift */; };
+		BA238A0024B18571004344B3 /* DbWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2389FF24B18571004344B3 /* DbWordController.swift */; };
+		BA238A0224B187A9004344B3 /* DbListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A0124B187A9004344B3 /* DbListController.swift */; };
+		BA238A0424B82E0B004344B3 /* AddWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A0324B82E0B004344B3 /* AddWordView.swift */; };
+		BA238A0624B832FB004344B3 /* AllWordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A0524B832FB004344B3 /* AllWordsCell.swift */; };
+		BA238A0824B97DDB004344B3 /* WordListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A0724B97DDB004344B3 /* WordListCell.swift */; };
+		BA238A0A24BBB428004344B3 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A0924BBB428004344B3 /* ExploreView.swift */; };
+		BA238A0C24BBF76C004344B3 /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A0B24BBF76C004344B3 /* ExploreCell.swift */; };
+		BA238A0E24BBFBFF004344B3 /* ExploreTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A0D24BBFBFF004344B3 /* ExploreTableCell.swift */; };
+		BA238A1224BBFF4C004344B3 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A1124BBFF4C004344B3 /* Explore.swift */; };
+		BA238A2C24BD522C004344B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA238A2B24BD522C004344B3 /* Assets.xcassets */; };
+		BA238A3024BEA842004344B3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A2F24BEA842004344B3 /* SettingView.swift */; };
+		BA238A3224BEB1A9004344B3 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A3124BEB1A9004344B3 /* SettingCell.swift */; };
+		BA238A3424BEC36E004344B3 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA238A3324BEC36E004344B3 /* NotificationView.swift */; };
 		BA28F67C24776C5900E1ED68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F67B24776C5900E1ED68 /* AppDelegate.swift */; };
 		BA28F67E24776C5900E1ED68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F67D24776C5900E1ED68 /* SceneDelegate.swift */; };
 		BA28F68024776C5900E1ED68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F67F24776C5900E1ED68 /* ViewController.swift */; };
 		BA28F68324776C5900E1ED68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA28F68124776C5900E1ED68 /* Main.storyboard */; };
-		BA28F68624776C5900E1ED68 /* VocabLearn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA28F68424776C5900E1ED68 /* VocabLearn.xcdatamodeld */; };
-		BA28F68824776C5A00E1ED68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA28F68724776C5A00E1ED68 /* Assets.xcassets */; };
 		BA28F68B24776C5A00E1ED68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA28F68924776C5A00E1ED68 /* LaunchScreen.storyboard */; };
+		BA28F6932477770C00E1ED68 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F6922477770C00E1ED68 /* Word.swift */; };
+		BA28F6992477816A00E1ED68 /* WordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F6982477816A00E1ED68 /* WordController.swift */; };
+		BA28F69D2478D82D00E1ED68 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F69C2478D82D00E1ED68 /* WordCell.swift */; };
+		BA28F69F2479B80500E1ED68 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F69E2479B80500E1ED68 /* HistoryView.swift */; };
+		BA28F6A2247B177900E1ED68 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F6A1247B177900E1ED68 /* Section.swift */; };
+		BA28F6A4247B183700E1ED68 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F6A3247B183700E1ED68 /* ExpandableHeaderView.swift */; };
+		BA28F6A6247B22DC00E1ED68 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F6A5247B22DC00E1ED68 /* HistoryCell.swift */; };
+		BA28F6AA247B706500E1ED68 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F6A9247B706500E1ED68 /* CategoryCell.swift */; };
+		BA28F6AC247E1FF000E1ED68 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F6AB247E1FF000E1ED68 /* FavouriteView.swift */; };
+		BA28F6AE247F5D9600E1ED68 /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28F6AD247F5D9600E1ED68 /* FavouriteCell.swift */; };
+		BA71839924889B8E009DCA31 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71839824889B8E009DCA31 /* Discover.swift */; };
+		BA7183A02488A693009DCA31 /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71839F2488A693009DCA31 /* DiscoverCell.swift */; };
+		BA7183A22489E2FE009DCA31 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7183A12489E2FE009DCA31 /* DisplayView.swift */; };
+		BA7183A4248B31C8009DCA31 /* IntroductionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7183A3248B31C8009DCA31 /* IntroductionViews.swift */; };
+		BA8106E3248C8A35003F9414 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8106E2248C8A35003F9414 /* iOSDevCenters+GIF.swift */; };
+		BABAB20624CD2B120083FD58 /* QuizListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB20524CD2B120083FD58 /* QuizListCell.swift */; };
+		BABAB20C24D7AA7C0083FD58 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB20B24D7AA7C0083FD58 /* LoadingView.swift */; };
+		BABAB21A24D7E1D40083FD58 /* loading4.gif in Resources */ = {isa = PBXBuildFile; fileRef = BABAB21524D7E1D30083FD58 /* loading4.gif */; };
+		BABAB22324D87C040083FD58 /* results4.gif in Resources */ = {isa = PBXBuildFile; fileRef = BABAB21F24D87C040083FD58 /* results4.gif */; };
+		BABAB22A24D87FDE0083FD58 /* results7.gif in Resources */ = {isa = PBXBuildFile; fileRef = BABAB22824D87FDE0083FD58 /* results7.gif */; };
+		BABAB23024D883180083FD58 /* PreparingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB22F24D883180083FD58 /* PreparingView.swift */; };
+		BABAB23424D8FCF40083FD58 /* beginner1.gif in Resources */ = {isa = PBXBuildFile; fileRef = BABAB23124D8FCF30083FD58 /* beginner1.gif */; };
+		BABAB23F24D906A30083FD58 /* intermediate3.gif in Resources */ = {isa = PBXBuildFile; fileRef = BABAB23B24D906A20083FD58 /* intermediate3.gif */; };
+		BABAB24424D9095F0083FD58 /* expert4.gif in Resources */ = {isa = PBXBuildFile; fileRef = BABAB24324D9095F0083FD58 /* expert4.gif */; };
+		BABAB24C24E1141A0083FD58 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB24B24E1141A0083FD58 /* UPCarouselFlowLayout.swift */; };
+		BABAB25024FDF3960083FD58 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = BABAB24F24FDF3950083FD58 /* words.json */; };
+		BABAB25524FDF9380083FD58 /* WordEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB25124FDF9380083FD58 /* WordEntity+CoreDataClass.swift */; };
+		BABAB25624FDF9380083FD58 /* WordEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB25224FDF9380083FD58 /* WordEntity+CoreDataProperties.swift */; };
+		BABAB25724FDF9380083FD58 /* ListEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB25324FDF9380083FD58 /* ListEntity+CoreDataClass.swift */; };
+		BABAB25824FDF9380083FD58 /* ListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB25424FDF9380083FD58 /* ListEntity+CoreDataProperties.swift */; };
+		BABAB25A24FF3D9F0083FD58 /* CustomWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAB25924FF3D9F0083FD58 /* CustomWordView.swift */; };
+		BAF144E4249B04E7003F5087 /* PriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144E3249B04E7003F5087 /* PriceCell.swift */; };
+		BAF144E6249EF67E003F5087 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144E5249EF67E003F5087 /* QuizView.swift */; };
+		BAF144E8249F1C58003F5087 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144E7249F1C58003F5087 /* TestingView.swift */; };
+		BAF144EA249F1D87003F5087 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144E9249F1D87003F5087 /* Quiz.swift */; };
+		BAF144EE249FE66A003F5087 /* QuizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144ED249FE66A003F5087 /* QuizCell.swift */; };
+		BAF144F024A06687003F5087 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144EF24A06687003F5087 /* ResultsView.swift */; };
+		BAF144F224A06892003F5087 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144F124A06892003F5087 /* Result.swift */; };
+		BAF144F424A06BDA003F5087 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144F324A06BDA003F5087 /* QuizController.swift */; };
+		BAF144F624A19A1F003F5087 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF144F524A19A1F003F5087 /* ResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA16C92F2484B3BC0056A23C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BA2389AC24A31D37004344B3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BA2389B024A41C26004344B3 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		BA2389B224A81588004344B3 /* MainCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategoryCell.swift; sourceTree = "<group>"; };
+		BA2389BF24AB0790004344B3 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		BA2389DB24AEC96C004344B3 /* Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		BA2389E724AED235004344B3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		BA2389E924AED24A004344B3 /* WordsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsListView.swift; sourceTree = "<group>"; };
+		BA2389EB24AED2B0004344B3 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		BA2389ED24AED2FE004344B3 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		BA2389EF24AED46C004344B3 /* AddedListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedListCell.swift; sourceTree = "<group>"; };
+		BA2389F124AEE704004344B3 /* ListPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPopup.swift; sourceTree = "<group>"; };
+		BA2389F324AEF798004344B3 /* PickListPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickListPopup.swift; sourceTree = "<group>"; };
+		BA2389F524B03D10004344B3 /* PickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickListView.swift; sourceTree = "<group>"; };
+		BA2389FF24B18571004344B3 /* DbWordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbWordController.swift; sourceTree = "<group>"; };
+		BA238A0124B187A9004344B3 /* DbListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbListController.swift; sourceTree = "<group>"; };
+		BA238A0324B82E0B004344B3 /* AddWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordView.swift; sourceTree = "<group>"; };
+		BA238A0524B832FB004344B3 /* AllWordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWordsCell.swift; sourceTree = "<group>"; };
+		BA238A0724B97DDB004344B3 /* WordListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListCell.swift; sourceTree = "<group>"; };
+		BA238A0924BBB428004344B3 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		BA238A0B24BBF76C004344B3 /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
+		BA238A0D24BBFBFF004344B3 /* ExploreTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTableCell.swift; sourceTree = "<group>"; };
+		BA238A1124BBFF4C004344B3 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		BA238A2B24BD522C004344B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA238A2F24BEA842004344B3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		BA238A3124BEB1A9004344B3 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		BA238A3324BEC36E004344B3 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		BA28F67824776C5900E1ED68 /* VocabLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA28F67B24776C5900E1ED68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA28F67D24776C5900E1ED68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BA28F67F24776C5900E1ED68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA28F68224776C5900E1ED68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA28F68524776C5900E1ED68 /* VocabLearn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VocabLearn.xcdatamodel; sourceTree = "<group>"; };
-		BA28F68724776C5A00E1ED68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA28F68A24776C5A00E1ED68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA28F68C24776C5A00E1ED68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA28F6922477770C00E1ED68 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		BA28F6982477816A00E1ED68 /* WordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordController.swift; sourceTree = "<group>"; };
+		BA28F69C2478D82D00E1ED68 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		BA28F69E2479B80500E1ED68 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		BA28F6A1247B177900E1ED68 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		BA28F6A3247B183700E1ED68 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		BA28F6A5247B22DC00E1ED68 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		BA28F6A9247B706500E1ED68 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BA28F6AB247E1FF000E1ED68 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		BA28F6AD247F5D9600E1ED68 /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
+		BA71839824889B8E009DCA31 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		BA71839F2488A693009DCA31 /* DiscoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCell.swift; sourceTree = "<group>"; };
+		BA7183A12489E2FE009DCA31 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		BA7183A3248B31C8009DCA31 /* IntroductionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViews.swift; sourceTree = "<group>"; };
+		BA8106E2248C8A35003F9414 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		BABAB20524CD2B120083FD58 /* QuizListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizListCell.swift; sourceTree = "<group>"; };
+		BABAB20B24D7AA7C0083FD58 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BABAB21524D7E1D30083FD58 /* loading4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading4.gif; sourceTree = "<group>"; };
+		BABAB21F24D87C040083FD58 /* results4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = results4.gif; sourceTree = "<group>"; };
+		BABAB22824D87FDE0083FD58 /* results7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = results7.gif; sourceTree = "<group>"; };
+		BABAB22F24D883180083FD58 /* PreparingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparingView.swift; sourceTree = "<group>"; };
+		BABAB23124D8FCF30083FD58 /* beginner1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = beginner1.gif; sourceTree = "<group>"; };
+		BABAB23B24D906A20083FD58 /* intermediate3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = intermediate3.gif; sourceTree = "<group>"; };
+		BABAB24324D9095F0083FD58 /* expert4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expert4.gif; sourceTree = "<group>"; };
+		BABAB24B24E1141A0083FD58 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		BABAB24F24FDF3950083FD58 /* words.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		BABAB25124FDF9380083FD58 /* WordEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WordEntity+CoreDataClass.swift"; path = "VocabLearn/WordEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BABAB25224FDF9380083FD58 /* WordEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WordEntity+CoreDataProperties.swift"; path = "VocabLearn/WordEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BABAB25324FDF9380083FD58 /* ListEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ListEntity+CoreDataClass.swift"; path = "VocabLearn/ListEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BABAB25424FDF9380083FD58 /* ListEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ListEntity+CoreDataProperties.swift"; path = "VocabLearn/ListEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BABAB25924FF3D9F0083FD58 /* CustomWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWordView.swift; sourceTree = "<group>"; };
+		BAF144E3249B04E7003F5087 /* PriceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCell.swift; sourceTree = "<group>"; };
+		BAF144E5249EF67E003F5087 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		BAF144E7249F1C58003F5087 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		BAF144E9249F1D87003F5087 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		BAF144ED249FE66A003F5087 /* QuizCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCell.swift; sourceTree = "<group>"; };
+		BAF144EF24A06687003F5087 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		BAF144F124A06892003F5087 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BAF144F324A06BDA003F5087 /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		BAF144F524A19A1F003F5087 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +171,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA16C92E2484B3A20056A23C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA16C92F2484B3BC0056A23C /* Extensions.swift */,
+				BABAB24B24E1141A0083FD58 /* UPCarouselFlowLayout.swift */,
+				BA8106E2248C8A35003F9414 /* iOSDevCenters+GIF.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BA2389B824A9AE72004344B3 /* modals */ = {
+			isa = PBXGroup;
+			children = (
+				BA2389DB24AEC96C004344B3 /* Popup.swift */,
+				BABAB20B24D7AA7C0083FD58 /* LoadingView.swift */,
+				BABAB22F24D883180083FD58 /* PreparingView.swift */,
+				BA2389F124AEE704004344B3 /* ListPopup.swift */,
+				BA2389F324AEF798004344B3 /* PickListPopup.swift */,
+				BA2389F524B03D10004344B3 /* PickListView.swift */,
+				BA2389BF24AB0790004344B3 /* PremiumView.swift */,
+				BA7183A12489E2FE009DCA31 /* DisplayView.swift */,
+				BA238A0324B82E0B004344B3 /* AddWordView.swift */,
+				BA238A3324BEC36E004344B3 /* NotificationView.swift */,
+				BABAB25924FF3D9F0083FD58 /* CustomWordView.swift */,
+			);
+			path = modals;
+			sourceTree = "<group>";
+		};
 		BA28F66F24776C5900E1ED68 = {
 			isa = PBXGroup;
 			children = (
+				BABAB25124FDF9380083FD58 /* WordEntity+CoreDataClass.swift */,
+				BABAB25224FDF9380083FD58 /* WordEntity+CoreDataProperties.swift */,
+				BABAB25324FDF9380083FD58 /* ListEntity+CoreDataClass.swift */,
+				BABAB25424FDF9380083FD58 /* ListEntity+CoreDataProperties.swift */,
+				BABAB24F24FDF3950083FD58 /* words.json */,
 				BA28F67A24776C5900E1ED68 /* VocabLearn */,
 				BA28F67924776C5900E1ED68 /* Products */,
 			);
@@ -58,16 +223,121 @@
 		BA28F67A24776C5900E1ED68 /* VocabLearn */ = {
 			isa = PBXGroup;
 			children = (
+				BA2389B824A9AE72004344B3 /* modals */,
+				BA8106DF248C864F003F9414 /* Gif */,
+				BA16C92E2484B3A20056A23C /* Helpers */,
+				BA28F6A8247B632C00E1ED68 /* view */,
+				BA71839C2488A661009DCA31 /* collectionviewcell */,
+				BA28F6A7247B62FA00E1ED68 /* tableviewcell */,
+				BA28F6A0247B175500E1ED68 /* ExpandableHeaderView */,
+				BA28F6942477787400E1ED68 /* model */,
+				BA28F695247780FA00E1ED68 /* controller */,
 				BA28F67B24776C5900E1ED68 /* AppDelegate.swift */,
 				BA28F67D24776C5900E1ED68 /* SceneDelegate.swift */,
-				BA28F67F24776C5900E1ED68 /* ViewController.swift */,
+				BA238A2B24BD522C004344B3 /* Assets.xcassets */,
 				BA28F68124776C5900E1ED68 /* Main.storyboard */,
-				BA28F68724776C5A00E1ED68 /* Assets.xcassets */,
 				BA28F68924776C5A00E1ED68 /* LaunchScreen.storyboard */,
 				BA28F68C24776C5A00E1ED68 /* Info.plist */,
 				BA28F68424776C5900E1ED68 /* VocabLearn.xcdatamodeld */,
 			);
 			path = VocabLearn;
+			sourceTree = "<group>";
+		};
+		BA28F6942477787400E1ED68 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BA28F6922477770C00E1ED68 /* Word.swift */,
+				BA71839824889B8E009DCA31 /* Discover.swift */,
+				BAF144E9249F1D87003F5087 /* Quiz.swift */,
+				BAF144F124A06892003F5087 /* Result.swift */,
+				BA2389AC24A31D37004344B3 /* Category.swift */,
+				BA2389EB24AED2B0004344B3 /* List.swift */,
+				BA238A1124BBFF4C004344B3 /* Explore.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BA28F695247780FA00E1ED68 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA28F6982477816A00E1ED68 /* WordController.swift */,
+				BAF144F324A06BDA003F5087 /* QuizController.swift */,
+				BA2389ED24AED2FE004344B3 /* ListController.swift */,
+				BA2389FF24B18571004344B3 /* DbWordController.swift */,
+				BA238A0124B187A9004344B3 /* DbListController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BA28F6A0247B175500E1ED68 /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				BA28F6A1247B177900E1ED68 /* Section.swift */,
+				BA28F6A3247B183700E1ED68 /* ExpandableHeaderView.swift */,
+			);
+			path = ExpandableHeaderView;
+			sourceTree = "<group>";
+		};
+		BA28F6A7247B62FA00E1ED68 /* tableviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				BA28F69C2478D82D00E1ED68 /* WordCell.swift */,
+				BA28F6A5247B22DC00E1ED68 /* HistoryCell.swift */,
+				BA28F6AD247F5D9600E1ED68 /* FavouriteCell.swift */,
+				BA238A0524B832FB004344B3 /* AllWordsCell.swift */,
+				BA238A0D24BBFBFF004344B3 /* ExploreTableCell.swift */,
+				BA238A3124BEB1A9004344B3 /* SettingCell.swift */,
+			);
+			path = tableviewcell;
+			sourceTree = "<group>";
+		};
+		BA28F6A8247B632C00E1ED68 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BA7183A3248B31C8009DCA31 /* IntroductionViews.swift */,
+				BA28F67F24776C5900E1ED68 /* ViewController.swift */,
+				BA28F69E2479B80500E1ED68 /* HistoryView.swift */,
+				BA28F6AB247E1FF000E1ED68 /* FavouriteView.swift */,
+				BAF144E5249EF67E003F5087 /* QuizView.swift */,
+				BAF144E7249F1C58003F5087 /* TestingView.swift */,
+				BAF144EF24A06687003F5087 /* ResultsView.swift */,
+				BA2389E724AED235004344B3 /* ListView.swift */,
+				BA2389E924AED24A004344B3 /* WordsListView.swift */,
+				BA238A0924BBB428004344B3 /* ExploreView.swift */,
+				BA238A2F24BEA842004344B3 /* SettingView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BA71839C2488A661009DCA31 /* collectionviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				BA71839F2488A693009DCA31 /* DiscoverCell.swift */,
+				BAF144E3249B04E7003F5087 /* PriceCell.swift */,
+				BAF144ED249FE66A003F5087 /* QuizCell.swift */,
+				BA2389B024A41C26004344B3 /* ListCell.swift */,
+				BA2389B224A81588004344B3 /* MainCategoryCell.swift */,
+				BAF144F524A19A1F003F5087 /* ResultCell.swift */,
+				BA2389EF24AED46C004344B3 /* AddedListCell.swift */,
+				BA238A0724B97DDB004344B3 /* WordListCell.swift */,
+				BA28F6A9247B706500E1ED68 /* CategoryCell.swift */,
+				BA238A0B24BBF76C004344B3 /* ExploreCell.swift */,
+				BABAB20524CD2B120083FD58 /* QuizListCell.swift */,
+			);
+			path = collectionviewcell;
+			sourceTree = "<group>";
+		};
+		BA8106DF248C864F003F9414 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				BABAB23124D8FCF30083FD58 /* beginner1.gif */,
+				BABAB21524D7E1D30083FD58 /* loading4.gif */,
+				BABAB23B24D906A20083FD58 /* intermediate3.gif */,
+				BABAB24324D9095F0083FD58 /* expert4.gif */,
+				BABAB21F24D87C040083FD58 /* results4.gif */,
+				BABAB22824D87FDE0083FD58 /* results7.gif */,
+			);
+			path = Gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +398,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABAB21A24D7E1D40083FD58 /* loading4.gif in Resources */,
+				BABAB24424D9095F0083FD58 /* expert4.gif in Resources */,
 				BA28F68B24776C5A00E1ED68 /* LaunchScreen.storyboard in Resources */,
-				BA28F68824776C5A00E1ED68 /* Assets.xcassets in Resources */,
 				BA28F68324776C5900E1ED68 /* Main.storyboard in Resources */,
+				BABAB25024FDF3960083FD58 /* words.json in Resources */,
+				BABAB22A24D87FDE0083FD58 /* results7.gif in Resources */,
+				BABAB23424D8FCF40083FD58 /* beginner1.gif in Resources */,
+				BABAB22324D87C040083FD58 /* results4.gif in Resources */,
+				BABAB23F24D906A30083FD58 /* intermediate3.gif in Resources */,
+				BA238A2C24BD522C004344B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +418,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA28F68624776C5900E1ED68 /* VocabLearn.xcdatamodeld in Sources */,
+				BA2389CE24AEC871004344B3 /* VocabLearn.xcdatamodeld in Sources */,
+				BA238A0E24BBFBFF004344B3 /* ExploreTableCell.swift in Sources */,
+				BA28F6A2247B177900E1ED68 /* Section.swift in Sources */,
+				BABAB25724FDF9380083FD58 /* ListEntity+CoreDataClass.swift in Sources */,
+				BAF144F024A06687003F5087 /* ResultsView.swift in Sources */,
+				BA2389B324A81588004344B3 /* MainCategoryCell.swift in Sources */,
+				BABAB20624CD2B120083FD58 /* QuizListCell.swift in Sources */,
+				BAF144E4249B04E7003F5087 /* PriceCell.swift in Sources */,
+				BA2389AD24A31D37004344B3 /* Category.swift in Sources */,
+				BA2389B124A41C26004344B3 /* ListCell.swift in Sources */,
+				BAF144F424A06BDA003F5087 /* QuizController.swift in Sources */,
+				BA71839924889B8E009DCA31 /* Discover.swift in Sources */,
+				BA2389EE24AED2FE004344B3 /* ListController.swift in Sources */,
+				BA28F69F2479B80500E1ED68 /* HistoryView.swift in Sources */,
+				BA238A3224BEB1A9004344B3 /* SettingCell.swift in Sources */,
+				BA2389DC24AEC96C004344B3 /* Popup.swift in Sources */,
+				BABAB25A24FF3D9F0083FD58 /* CustomWordView.swift in Sources */,
+				BAF144E8249F1C58003F5087 /* TestingView.swift in Sources */,
+				BAF144F624A19A1F003F5087 /* ResultCell.swift in Sources */,
+				BA238A0624B832FB004344B3 /* AllWordsCell.swift in Sources */,
 				BA28F68024776C5900E1ED68 /* ViewController.swift in Sources */,
+				BA2389F424AEF798004344B3 /* PickListPopup.swift in Sources */,
+				BABAB24C24E1141A0083FD58 /* UPCarouselFlowLayout.swift in Sources */,
+				BA2389F624B03D10004344B3 /* PickListView.swift in Sources */,
+				BAF144E6249EF67E003F5087 /* QuizView.swift in Sources */,
+				BA238A3424BEC36E004344B3 /* NotificationView.swift in Sources */,
+				BAF144EE249FE66A003F5087 /* QuizCell.swift in Sources */,
+				BA28F69D2478D82D00E1ED68 /* WordCell.swift in Sources */,
+				BABAB20C24D7AA7C0083FD58 /* LoadingView.swift in Sources */,
+				BA7183A02488A693009DCA31 /* DiscoverCell.swift in Sources */,
+				BA238A0024B18571004344B3 /* DbWordController.swift in Sources */,
+				BA28F6932477770C00E1ED68 /* Word.swift in Sources */,
+				BA238A0A24BBB428004344B3 /* ExploreView.swift in Sources */,
+				BA238A0224B187A9004344B3 /* DbListController.swift in Sources */,
+				BAF144EA249F1D87003F5087 /* Quiz.swift in Sources */,
+				BA2389F224AEE704004344B3 /* ListPopup.swift in Sources */,
+				BA28F6AC247E1FF000E1ED68 /* FavouriteView.swift in Sources */,
+				BA2389EC24AED2B0004344B3 /* List.swift in Sources */,
+				BA238A0C24BBF76C004344B3 /* ExploreCell.swift in Sources */,
 				BA28F67C24776C5900E1ED68 /* AppDelegate.swift in Sources */,
+				BA8106E3248C8A35003F9414 /* iOSDevCenters+GIF.swift in Sources */,
+				BAF144F224A06892003F5087 /* Result.swift in Sources */,
+				BA28F6A4247B183700E1ED68 /* ExpandableHeaderView.swift in Sources */,
+				BA2389C024AB0790004344B3 /* PremiumView.swift in Sources */,
+				BABAB25624FDF9380083FD58 /* WordEntity+CoreDataProperties.swift in Sources */,
+				BABAB23024D883180083FD58 /* PreparingView.swift in Sources */,
+				BA2389F024AED46C004344B3 /* AddedListCell.swift in Sources */,
+				BABAB25524FDF9380083FD58 /* WordEntity+CoreDataClass.swift in Sources */,
+				BA28F6AE247F5D9600E1ED68 /* FavouriteCell.swift in Sources */,
+				BA2389EA24AED24A004344B3 /* WordsListView.swift in Sources */,
+				BA2389E824AED235004344B3 /* ListView.swift in Sources */,
+				BA16C9302484B3BC0056A23C /* Extensions.swift in Sources */,
+				BA238A1224BBFF4C004344B3 /* Explore.swift in Sources */,
 				BA28F67E24776C5900E1ED68 /* SceneDelegate.swift in Sources */,
+				BA238A3024BEA842004344B3 /* SettingView.swift in Sources */,
+				BABAB25824FDF9380083FD58 /* ListEntity+CoreDataProperties.swift in Sources */,
+				BA238A0824B97DDB004344B3 /* WordListCell.swift in Sources */,
+				BA28F6992477816A00E1ED68 /* WordController.swift in Sources */,
+				BA7183A22489E2FE009DCA31 /* DisplayView.swift in Sources */,
+				BA28F6A6247B22DC00E1ED68 /* HistoryCell.swift in Sources */,
+				BA7183A4248B31C8009DCA31 /* IntroductionViews.swift in Sources */,
+				BA238A0424B82E0B004344B3 /* AddWordView.swift in Sources */,
+				BA28F6AA247B706500E1ED68 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +627,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56DSX9S692;
 				INFOPLIST_FILE = VocabLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +646,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56DSX9S692;
 				INFOPLIST_FILE = VocabLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

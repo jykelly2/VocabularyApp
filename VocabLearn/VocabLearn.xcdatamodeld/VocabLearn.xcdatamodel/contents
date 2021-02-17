@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ListEntity" representedClassName="ListEntity" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="custom" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="rawWords" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="WordEntity" inverseName="rawLists" inverseEntity="WordEntity"/>
+    </entity>
+    <entity name="QuizEntity" representedClassName=".QuizEntity" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="list" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WordEntity" representedClassName="WordEntity" syncable="YES">
+        <attribute name="added" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="definition" attributeType="String"/>
+        <attribute name="favourited" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="learned" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sentence" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="wordType" attributeType="String"/>
+        <relationship name="rawLists" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="ListEntity" inverseName="rawWords" inverseEntity="ListEntity"/>
+    </entity>
+    <elements>
+        <element name="ListEntity" positionX="-171" positionY="126" width="128" height="103"/>
+        <element name="QuizEntity" positionX="-225" positionY="63" width="128" height="118"/>
+        <element name="WordEntity" positionX="-334.59375" positionY="-33.234375" width="128" height="178"/>
+    </elements>
 </model>

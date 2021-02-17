@@ -1,0 +1,131 @@
+//
+//  IntroductionViews.swift
+//  VocabLearn
+//
+//  Created by Jun K on 2020-06-05.
+//  Copyright © 2020 Jun K. All rights reserved.
+//
+
+import UIKit
+
+class IntroductionViews: UIViewController {
+
+    @IBOutlet var holderView: UIView!
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        /*UIFont.familyNames.forEach({ familyName in
+            let fontNames = UIFont.fontNames(forFamilyName: familyName)
+            print(familyName, fontNames)
+        })*/
+
+       
+        // Do any additional setup after loading the view.
+    }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+       
+        configure()
+       /* let imageView = UIImageView(image: UIImage(named:"studyicon"))
+                                          imageView.translatesAutoresizingMaskIntoConstraints = false
+                         let x = imageView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
+                          let y = imageView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+                                  let width = imageView.widthAnchor.constraint(equalToConstant: 250)
+                         let height = imageView.heightAnchor.constraint(equalToConstant: 250)
+                   NSLayoutConstraint.activate([x,y,width,height])*/
+    }
+    
+    private func configure(){
+        let scrollView = UIScrollView(frame: holderView.bounds)
+        holderView.addSubview(scrollView)
+        
+        let titles = ["Expand Your vocabulary", "Instruction", "Wi-Fi"]
+        let description = ["Scientifically proven that learning small number of vocabulary everyday consistently leads to increased language knowledge rather than learning it all at once", "Add your own words, delete words you already know, track your favourite and learned words", "Make sure you are connected to the Wi-Fi or Cellular data in order to pre-load all the words(only occures 1 time). After you can use this app without any internet"]
+        let images = ["bookicon","studyingimage","educatingimage"]
+        for x in 0..<3{
+            let pageView = UIView(frame: CGRect(x: CGFloat(x)*holderView.frame.size.width, y: 0, width: holderView.frame.size.width, height: holderView.frame.size.height))
+            scrollView.addSubview(pageView)
+            
+            //let label = UILabel(frame: CGRect(x: 10, y: 10, width: pageView.frame.size.width-20, height: 120))
+          //  let imageView = UIImageView(frame: CGRect(x: 10, y: 10+120+10, width: pageView.frame.size.width-20, height:pageView.frame.size.height - 60 - 130 - 15 ))
+            
+            
+             let imageView = UIImageView()
+            let titleLbl = UILabel()
+            let descriptionLbl = UILabel()
+            //let continueBtn = UIButton(type: .system)
+            
+            let continueBtn = UIButton(frame: CGRect(x: 25, y: pageView.frame.size.height-200, width: pageView.frame.size.width-50, height: 60))
+            let pageControl = UIPageControl(frame:CGRect(x:view.frame.size.width/2 , y: pageView.frame.size.height-100,width:0, height: 0))
+            
+            imageView.contentMode = .scaleAspectFit
+            imageView.image = UIImage(named: images[x])
+            
+            pageView.addSubview(imageView)
+            
+            imageView.translatesAutoresizingMaskIntoConstraints = false
+            imageView.centerXAnchor.constraint(equalTo:view.centerXAnchor).isActive = true
+                  // imageView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+            imageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100).isActive = true
+            imageView.widthAnchor.constraint(equalToConstant: view.frame.size.width).isActive = true
+                   imageView.heightAnchor.constraint(equalToConstant: view.frame.size.height-550).isActive = true
+
+             titleLbl.textAlignment = .center
+             titleLbl.font = UIFont(name: "Helvetica-Bold", size: 32)
+             titleLbl.translatesAutoresizingMaskIntoConstraints = false
+             titleLbl.text = titles[x]
+             pageView.addSubview(titleLbl)
+            
+            titleLbl.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 50).isActive = true
+            
+            titleLbl.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+            titleLbl.rightAnchor.constraint(equalTo: view.rightAnchor).isActive=true
+           // titleLbl.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+            
+            descriptionLbl.textAlignment = .center
+            descriptionLbl.numberOfLines = 0
+            descriptionLbl.font = UIFont(name: "AvenirNext-UltraLightItalic", size: 14)
+            descriptionLbl.translatesAutoresizingMaskIntoConstraints = false
+            descriptionLbl.text = description[x]
+            pageView.addSubview(descriptionLbl)
+            
+            descriptionLbl.topAnchor.constraint(equalTo: titleLbl.bottomAnchor, constant: 30).isActive = true
+            descriptionLbl.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+            descriptionLbl.rightAnchor.constraint(equalTo: view.rightAnchor).isActive=true
+       
+           // continueBtn.translatesAutoresizingMaskIntoConstraints = false
+
+            continueBtn.layer.cornerRadius = 10.0
+            continueBtn.setTitle("Continue", for: .normal)
+            continueBtn.backgroundColor = .blue
+            pageView.addSubview(continueBtn)
+            
+            pageControl.currentPage = 0
+            pageControl.numberOfPages = 3
+            pageControl.currentPageIndicatorTintColor = .red
+            pageControl.pageIndicatorTintColor = .gray
+            pageView.addSubview(pageControl)
+            
+           // pageControl.topAnchor.constraint(equalTo: continueBtn.bottomAnchor, constant: 30).isActive = true
+           // pageControl.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+           // pageControl.rightAnchor.constraint(equalTo: view.rightAnchor).isActive=true
+           // pageControl.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+            
+            //NSLayoutConstraint.activate([continueBtn.topAnchor.constraint(equalTo: view.topAnchor), continueBtn.leadingAnchor.constraint(equalTo: view.leadingAnchor), continueBtn.trailingAnchor.constraint(equalTo: view.trailingAnchor), continueBtn.heightAnchor.constraint(equalToConstant: 50)])
+            //continueBtn.topAnchor.constraint(equalTo: descriptionLbl.bottomAnchor, constant: 30).isActive = true
+          // continueBtn.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+           // continueBtn.rightAnchor.constraint(equalTo: view.rightAnchor).isActive=true
+            //continueBtn.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+            
+        }
+        
+      
+        scrollView.contentSize = CGSize(width: holderView.frame.size.width*3, height: 0)
+        scrollView.isPagingEnabled = true
+        
+
+      
+    }
+   
+
+}

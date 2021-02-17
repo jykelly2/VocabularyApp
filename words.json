@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Constitution",
+        "wordType": "Noun",
+        "definition":"A body of fundamental principles or established precedents according to which a state or other organization is acknowledged to be governed",
+        "sentence":"The genetic constitution of a species",
+        "category":"Emotion",
+    },
+    {
+        "title": "Legislature",
+        "wordType": "Noun",
+        "definition":"A legislature is a deliberative assembly with the authority to make laws for a political entity",
+        "sentence":"The Nevada state legislature passed a law to prohibit dumping of nuclear waste",
+        "category":"Emotion",
+    },
+    {
+        "title": "Conspicuous",
+        "wordType": "Adjective",
+        "definition":"Standing out so as to be clearly visible",
+        "sentence":"He was very thin, with a conspicuous Adam's apple",
+        "category":"Emotion",
+    }
+]
+ 
+ 
