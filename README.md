@@ -1,5 +1,5 @@
 # Vocabulary App (Individual App)
-Vocabulary App allows users to expand their vocabulary and learn new words by suggesting users with new words every day. The user can filter the words by different categories such as "Emotion", "Business" or "Health" and they can add these words to their customized list which is saved with Core Data. The user can also explore default lists which already has words related to their category. Vocabulary App also has a quiz feature to allow users to test their knowledge through definition and fill in the blank multiple choice questions. 
+Vocabulary App allows users to expand their vocabulary and learn new words by suggesting users with new words every day. The user can filter the words by different categories such as "Emotion", "Business" or "Health" and they can add these words to their customized list which is saved with Core Data. The user can also explore default lists which already has words related to their list title. Vocabulary App also has a quiz feature to allow users to test their knowledge through definition and fill in the blank multiple choice questions. 
 
 ### Tools/Languages:
 
